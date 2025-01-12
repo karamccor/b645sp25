@@ -1,0 +1,31 @@
+---
+title: AE 00 Introducing the toolkit
+author: YOUR NAME GOES HERE
+date: DATE GOES HERE
+output:
+  html_document
+---
+
+
+### Exercise 2
+
+Write your answer to Exercise 2 here.
+
+### Exercise 3
+
+Write your answer to Exercise 3 here.
+
+### Exercise 4
+
+Write your answer to Exercise 4 here.
+
+### Exercise 5
+
+```{r ex-5}
+# Use this R chunk to carry out the calculation in Exercise 5.
+
+```
+
+
+Remember to knit your lab into an .html file and then save it as a .pdf in a 
+web browser.
