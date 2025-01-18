@@ -1,0 +1,98 @@
+---
+title: "Lab 02"
+subtitle: "Park access"
+author: "YOUR NAME HERE"
+---
+
+```{r}
+#| label: packages
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(tidymodels) # contains broom, yardstick, and other modeling packages
+library(knitr)
+```
+
+```{r}
+#| label: import-data
+
+# add code to import data here
+```
+
+## Exercise 1
+
+```{r}
+#| label: glimpse
+#| eval: false
+
+# add code here
+```
+
+## Exercise 2
+
+## Exercise 3
+
+```{r}
+#| eval: false
+parks <- # <1>
+  parks |>  
+  mutate(spend_per_resident_data = 
+           str_replace(spend_per_resident_data,"\\$", "")) |> # <2>
+  mutate(spend_per_resident_data = 
+           as.numeric(spend_per_resident_data)) # <3>
+```
+
+## Exercise 4
+
+```{r}
+#| label: hist-predictor
+
+# add code here
+```
+
+```{r}
+#| label: summary-stats-predictor
+
+# add code here
+```
+
+## Exercise 5
+
+```{r}
+#| label: hist-response
+
+# add code here
+```
+
+```{r}
+#| label: summary-stats-response
+
+# add code here
+```
+
+## Exercise 6
+
+```{r}
+#| label: scatter
+
+# add code here
+```
+
+## Exercise 7
+
+## Exercise 8
+
+```{r}
+#| label: model
+
+# add code here
+```
+
+## Exercise 9
+
+```{r}
+#| label: model-assess
+
+# add code here
+```
