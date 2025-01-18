@@ -1,0 +1,76 @@
+---
+title: "AE 01"
+author: "YOUR NAME HERE"
+---
+
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| label: load-packages
+
+library(tidyverse)    # data wrangling and visualization
+library(tidymodels)   # broom and yardstick package
+library(openintro)    # duke_forest dataset
+library(knitr)        # format output
+library(scales)       # format plot axes
+library(skimr)        # quickly calculate summary statistics
+```
+
+## Exercise 1
+
+
+## Exercise 2
+
+
+```{r}
+#| label: ex2-area-viz
+
+# add code here
+
+```
+
+```{r}
+#| label: ex2-area-summary
+
+# add code here
+
+```
+
+## Exercise 3
+
+
+## Exercise 4
+
+```{r}
+#| label: scatterplot
+#| eval: false
+
+ggplot(duke_forest, aes(x = ____, y = ____)) +
+  geom_point(alpha = 0.7) +
+  labs(
+    x = "_______",
+    y = "_________",
+    title = "Price and area of houses in Duke Forest"
+  ) +
+  scale_y_continuous(labels = label_dollar()) 
+```
+
+# Regression model
+
+## Exercise 5
+
+## Exercise 6
+
+
+```{r}
+#| label: fit-model
+
+# add code here
+
+```
+
+## Exercise 7
+
+## Exercise 8
+
