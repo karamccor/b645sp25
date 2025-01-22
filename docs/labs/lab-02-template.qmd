@@ -31,20 +31,6 @@ library(knitr)
 
 ## Exercise 2
 
-## Exercise 3
-
-```{r}
-#| eval: false
-parks <- # <1>
-  parks |>  
-  mutate(spend_per_resident_data = 
-           str_replace(spend_per_resident_data,"\\$", "")) |> # <2>
-  mutate(spend_per_resident_data = 
-           as.numeric(spend_per_resident_data)) # <3>
-```
-
-## Exercise 4
-
 ```{r}
 #| label: hist-predictor
 
@@ -57,7 +43,7 @@ parks <- # <1>
 # add code here
 ```
 
-## Exercise 5
+## Exercise 3
 
 ```{r}
 #| label: hist-response
@@ -71,7 +57,7 @@ parks <- # <1>
 # add code here
 ```
 
-## Exercise 6
+## Exercise 4
 
 ```{r}
 #| label: scatter
@@ -79,9 +65,9 @@ parks <- # <1>
 # add code here
 ```
 
-## Exercise 7
+## Exercise 5
 
-## Exercise 8
+## Exercise 6
 
 ```{r}
 #| label: model
@@ -89,7 +75,7 @@ parks <- # <1>
 # add code here
 ```
 
-## Exercise 9
+## Exercise 7
 
 ```{r}
 #| label: model-assess
